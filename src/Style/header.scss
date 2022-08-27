@@ -1,0 +1,33 @@
+@import './everywhere.scss';
+
+.main-header {
+    @media only screen and (min-width: 0) {
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        background-color: aquamarine;
+        svg {
+            width: 30px;
+            height: 49px;
+            margin-left: 20px;
+          }
+        h1 {
+            font-size: 25px;
+            color: rgb(10, 53, 39);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+        nav {
+            margin-right: 24px;
+            justify-content: center;
+            a {
+                font-size: 17px;
+                color: rgb(10, 53, 39);
+                font-family: sans-serif;
+                text-decoration: none;
+                :hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

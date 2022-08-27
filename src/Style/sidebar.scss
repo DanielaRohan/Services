@@ -1,0 +1,17 @@
+.sidebar {
+    @media only screen and (min-width: 0) {
+        padding: 22px 12px 15px 25px;
+        background-color: rgb(120, 222, 188);
+        display: inline-block;
+        height: 100%;
+        // border-bottom: 0ch;
+        nav {
+            height: 100%;
+            a {
+                text-decoration: none;
+                display: block;
+                padding-top: 30px;
+            }    
+        }
+    }
+}
