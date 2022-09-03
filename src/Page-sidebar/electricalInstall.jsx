@@ -1,5 +1,7 @@
+
 export const ElectricalInstall = function () {
     return (
-        <p>Electricall Instalations</p>
+        <div className="electrical-install">
+        </div>
     )
 }

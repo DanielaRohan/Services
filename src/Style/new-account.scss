@@ -1,0 +1,43 @@
+.new-account {
+    @media only screen and (min-width: 0) {
+        width: 500px;
+        background: rgba(0, 0, 0, 0.8);
+        margin: 12% auto;
+        padding: 50px 0;
+        color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        margin-top: 15px;
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          input {
+            margin: 20px ;
+            width: 80%;
+            border-bottom: 1px solid #fff;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+          }
+          .register-btn {
+            margin-top: 20px;
+            width: 100px;
+            height: 50px;
+            border-radius: 50px;
+            background: linear-gradient(to right, rgb(162, 0, 255), rgb(74, 15, 236));
+            cursor: pointer;
+            transition: 0.2s;
+          }
+          .register-btn:hover {
+            width: 200px;
+          }
+        }
+   }
+}

@@ -1,0 +1,48 @@
+@import './everywhere.scss';
+body {
+        background-image: url(../asset/background2.jpeg);
+          .form-box {
+            width: 500px;
+            background: rgba(0, 0, 0, 0.8);
+            margin: 12% auto;
+            padding: 50px 0;
+            color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                h1 {
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                .input-box {
+                  margin: 31px auto;
+                  width: 80%;
+                  border-bottom: 1px solid #fff;
+                  padding-top: 10px;
+                  padding-bottom: 5px;
+                  display: flex;
+                }
+                .input-box input {
+                  width: 90%;
+                  border: none;
+                  outline: none;
+                  background: transparent;
+                  color: #fff;
+                  display: block;
+                  padding-left: 5px;
+                }
+                ::placeholder {
+                  color: #ccc;
+                }
+          }
+          .login-btn {
+            margin: 40px auto 20px;
+            width: 80%;
+            display: block;
+            outline: none;
+            padding: 10px 0;
+            border: 1px solid #fff;
+            cursor: pointer;
+            background: transparent;
+            color: #fff;
+            font-size: 16px;
+          }
+    }
